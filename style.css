@@ -1,0 +1,21 @@
+
+body {
+  color: var(--text-color);
+  font-family: "Comic Sans MS";
+}
+
+h1, h2, h3, h4 {
+  color: black;
+  font-family: "Comic Sans MS";
+}
+
+.gallery img {
+  width: 150px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
